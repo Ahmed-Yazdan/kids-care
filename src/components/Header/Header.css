@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #d88ad8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.links{
+    text-decoration: none;
+    color: #ffff00;
+    font-size: 1.2rem;
+    transition: transform .2s;
+}
+
+.links:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: white;
+}
+
+.user{
+    text-decoration: none;
+    color: #ffff00;
+    font-size: 1.2rem;
+    transition: transform .2s;
+}
+
+.fas{
+    color: white;
+    padding: 5px;
+}
+
+.login-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout-btn{
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    height: 50px;
+    margin-top: 12px;
+}

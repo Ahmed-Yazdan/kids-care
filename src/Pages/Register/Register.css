@@ -1,0 +1,32 @@
+.login-form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.inputs{
+    display: block;
+    padding: 10px;
+    width: 75%;
+    margin-top:10px;
+    border-radius: 5px;
+    background-color: rgb(248, 201, 248);
+    color: black;
+    border:0px;
+}
+input::placeholder{
+    color: black;
+    opacity: 1;
+}
+.button{
+    color: yellow;
+    background-color: #bb2bbb;
+    border-radius: 5px;
+    padding: 7px;
+    border: 0px solid black;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: transform .2s;
+}
